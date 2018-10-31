@@ -1,0 +1,15 @@
+{
+    "env": {
+        "development": {
+
+        },
+        "test": {
+
+        },
+        "production": {
+            "plugins": [
+                "@babel/syntax-object-rest-spread"
+            ]
+        }
+    }
+}

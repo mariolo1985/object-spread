@@ -1,0 +1,9 @@
+/node_modules/
+/src/
+.babelrc
+.eslintrc
+.gitignore
+.npmignore
+.nvmrc
+webpack.config.js
+yarn.lock
