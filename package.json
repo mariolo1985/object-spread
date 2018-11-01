@@ -1,6 +1,6 @@
 {
   "name": "spreading",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Object rest spread module",
   "main": "dist/index.js",
   "scripts": {
@@ -17,9 +17,8 @@
     "object",
     "rest",
     "spread",
-    "object",
-    "rest",
-    "spread"
+    "object rest spread",
+    "rest spread"
   ],
   "author": "MLo",
   "license": "MIT",
