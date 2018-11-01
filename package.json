@@ -1,7 +1,7 @@
 {
   "name": "spreading",
-  "version": "0.0.6",
-  "description": "Object rest spread module",
+  "version": "0.1.0",
+  "description": "A spread module",
   "main": "dist/index.js",
   "scripts": {
     "build": "yarn cleandist && babel --minified ./src --out-dir ./dist",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mariolo1985/object-spread.git"
+    "url": "git+https://github.com/mariolo1985/spreading.git"
   },
   "keywords": [
     "object",
@@ -23,9 +23,9 @@
   "author": "MLo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mariolo1985/object-spread/issues"
+    "url": "https://github.com/mariolo1985/spreading/issues"
   },
-  "homepage": "https://github.com/mariolo1985/object-spread#readme",
+  "homepage": "https://github.com/mariolo1985/spreading#readme",
   "devDependencies": {
     "@babel/cli": "^7.1.2",
     "@babel/core": "^7.1.2",
