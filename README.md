@@ -14,6 +14,7 @@ This module will perform spread operations.
 
 You can:
 - Combine objects
+- Get the key value from the combined objects
 - ...and more...in the future!
 
 A work-in-progress module.
@@ -25,8 +26,10 @@ Built by: [Mario Lo](https://github.com/mariolo1985)
 
 ```javascript
 import {
-    spreading
+    spreading,
+    getKey
 } from 'spreading';
+
 
 (() => {
     const combine1 = {
@@ -47,9 +50,13 @@ import {
     };
 
     const spreadinged = spreading(combine1, combine2, combine3);
-    console.log(spreadinged); // Object { a: 1, b: 2, c: 4, d: 6, e: 7, f: 8 }
-})();
+    console.log(spreadinged);
+    // Object { a: 1, b: 2, c: 4, d: 6, e: 7, f: 8 }
 
+    const getKeyed = getKey('d', combine1, combine2, combine3);
+    console.log(getKeyed);
+    // 5
+})();
 ```
 
 ## Functions
@@ -60,15 +67,24 @@ Combines multiple objects
 
 > Returns an object
 
+### getKey
+
+Combines multiple objects and returns the value of the key
+
+> Returns the key value if found
+> Returns null if not found
+
 ## Parameters
 ```javascript
-spreading(target[, source, source,...etc]);
+spreading(target[, source, source, ...etc]);
+getKey(key, target[, source, source, ...etc])
 ```
 
 | Parameter Name   | Type   | Required   | Default Value   | Description   |
 | --- | --- | --- | --- | --- |
-| target | object | true | null | An object that the source object will combine to |
+| target | object | true | null | Main object that will perform operations on |
 | source | object | true | null | An object that will combine with the target |
+| key | string | true | null | A key to locate in the source object(s) |
 
 ## Contributing
 
