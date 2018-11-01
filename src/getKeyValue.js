@@ -1,3 +1,3 @@
 export default function getKeyValue(source, key) {
-    return { key, ...source } = source;
+    return source[key];
 }
