@@ -1,3 +1,3 @@
-export default function spreader(source) {
-    return { ...source };
+export default function spreader(target, source) {
+    return { ...target, ...source };
 }
