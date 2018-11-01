@@ -14,7 +14,7 @@ This module will perform spread operations
 
 You can:
 - Combine objects
-- ...more!
+- ...and more...in the future!
 
 A work-in-progress module.
 
@@ -25,7 +25,6 @@ Built by: [Mario Lo](https://github.com/mariolo1985)
 
 ```javascript
 import {
-    spreader,
     spreading
 } from 'spreading';
 
@@ -47,33 +46,22 @@ import {
         f: 8
     };
 
-    const spreadered = spreader(combine1, combine2);
-    // Object { a: 1, b: 2, c: 4, d: 5 }
-
     const spreadinged = spreading(combine1, combine2, combine3);
-    // Object { a: 1, b: 2, c: 4, d: 6, e: 7, f: 8 }
+    console.log(spreadinged); // Object { a: 1, b: 2, c: 4, d: 6, e: 7, f: 8 }
 })();
 
 ```
 
 ## Functions
 
-### spreader
-
-Combine two objects
-
-> Returns an object
-
 ### spreading
 
-Combines Multiple Objects
+Combines multiple objects
 
 > Returns an object
-
 
 ## Parameters
 ```javascript
-spreader(target, source);
 spreading(target[, source, source,...etc]);
 ```
 
