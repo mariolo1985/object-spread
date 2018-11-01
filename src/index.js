@@ -1,2 +1,2 @@
-module.exports.spread = require('./spread');
-module.exports.getKeyValue = require('./getKeyValue');
+export spreader from './spreader';
+export getKeyValue from './getKeyValue';

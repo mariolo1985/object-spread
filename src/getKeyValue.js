@@ -1,3 +1,3 @@
-module.exports = function getKeyValue(source, key) {
+export default function getKeyValue(source, key) {
     return { key, ...source } = source;
 }
