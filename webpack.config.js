@@ -10,13 +10,13 @@ module.exports = {
         getKeyValue: [
             path.join(__dirname, 'src/getKeyValue.js')
         ],
-        spread: [
-            path.join(__dirname, 'src/spread.js')
+        spreader: [
+            path.join(__dirname, 'src/spreader.js')
         ]
     },
     output: {
         path: __dirname + '/dist',
-        filename: '[name].min.js'
+        filename: '[name].js'
     },
     module: {
         rules: [
