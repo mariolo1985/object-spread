@@ -55,7 +55,7 @@ import {
 
     const getKeyed = getKey('d', combine1, combine2, combine3);
     console.log(getKeyed);
-    // 5
+    // 6
 })();
 ```
 
