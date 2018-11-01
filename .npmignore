@@ -1,9 +1,11 @@
 /node_modules/
 /src/
 .babelrc
+.eslintignore
 .eslintrc
 .gitignore
 .npmignore
 .nvmrc
+.travis.yml
 webpack.config.js
 yarn.lock
