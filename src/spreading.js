@@ -3,6 +3,6 @@ export default function spreading() {
     Object.keys(arguments).forEach((key) => {
         Object.assign(spreaded, arguments[key]);
     });
-    
-    return { ...spreaded };
+
+    return spreaded;
 }
