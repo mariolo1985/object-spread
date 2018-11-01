@@ -1,7 +1,7 @@
-export default function spreading() {
+export default function spreading(...args) {
     let spreaded = {};
-    Object.keys(arguments).forEach((key) => {
-        Object.assign(spreaded, arguments[key]);
+    Object.keys(args).forEach((key) => {
+        Object.assign(spreaded, args[key]);
     });
 
     return spreaded;
