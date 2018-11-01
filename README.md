@@ -1,6 +1,6 @@
 # spreading
 
-A spread operation module
+A spread module
 
 ## Install
 
@@ -10,7 +10,7 @@ yarn add spreading
 
 ## Description
 
-This module will perform spread operations
+This module will perform spread operations.
 
 You can:
 - Combine objects
