@@ -1,0 +1,27 @@
+{
+    "env": {
+        "development": {
+            "presets": [
+                [
+                    "@babel/preset-env"
+                ]
+            ],
+            "plugins": [
+                "@babel/plugin-proposal-export-default-from",
+                "@babel/syntax-object-rest-spread"
+            ]
+        },
+        "test": {},
+        "production": {
+            "presets": [
+                [
+                    "@babel/preset-env"
+                ]
+            ],
+            "plugins": [
+                "@babel/plugin-proposal-export-default-from",
+                "@babel/syntax-object-rest-spread"
+            ]
+        }
+    }
+}
