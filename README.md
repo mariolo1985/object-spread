@@ -92,7 +92,7 @@ Please open a new issue and mention me to get the ball rolling. Thanks!
 
 ## Future Features
 
-- Ability to handle multiple elements
+TBD
 
 ## Feature Request
 
