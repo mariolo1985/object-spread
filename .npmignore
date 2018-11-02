@@ -1,5 +1,6 @@
 /node_modules/
 /src/
+/tests/
 .babelrc
 .eslintignore
 .eslintrc
@@ -8,5 +9,5 @@
 .nvmrc
 .travis.yml
 cleandist.js
-webpack.config.js
+jest.config.js
 yarn.lock
